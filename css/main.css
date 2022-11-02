@@ -93,15 +93,16 @@ html {
 }
 
 .main__price {
+  min-width: 200px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
   border-bottom: 1px solid var(--very-dark-blue-line);
   padding-bottom: 20px;
 }
 
 .main__eth,
 .main__date {
-  height: 20px;
   display: flex;
   font-size: 1.5rem;
 }

@@ -31,14 +31,14 @@ html {
 .main {
   width: 90%;
   max-width: 340px;
-  padding: 25px;
+  padding: 25px 23px 30px;
   margin: 40px auto;
   background-color: var(--very-dark-blue-card);
   border-radius: 20px;
 }
 
 .main__img {
-  max-height: 290px;
+  max-height: 294px;
   position: relative;
   cursor: pointer;
 }
@@ -75,7 +75,7 @@ html {
 }
 
 .main__title {
-  margin: 15px 0;
+  margin: 20px 0 15px;
   font-size: 2.3rem;
   color: var(--white);
 }
@@ -88,7 +88,6 @@ html {
 .main__paragraph {
   margin-bottom: 20px;
   font-size: clamp(1.4rem, 4.5vw, 1.7rem);
-  font-weight: 300;
   line-height: 1.5;
   color: var(--soft-blue);
 }
@@ -103,20 +102,17 @@ html {
 .main__eth,
 .main__date {
   display: flex;
-  font-size: 1.4rem;
-}
-
-.main__eth img,
-.main__date img {
-  margin-right: 8px;
+  font-size: 1.5rem;
 }
 
 .main__eth p {
   color: var(--cyan);
   font-weight: 600;
+  margin-left: 8px;
 }
 
 .main__date p {
+  margin-left: 8px;
   color: var(--soft-blue);
 }
 
@@ -134,8 +130,7 @@ html {
 }
 
 .main__profile p {
-  font-size: 1.5rem;
-  font-weight: 300;
+  font-size: 1.6rem;
   margin-left: 15px;
   color: var(--soft-blue);
 }
